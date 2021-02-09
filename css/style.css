@@ -1,0 +1,557 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	box-sizing: border-box;
+	background: #030203;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	transition: .3s ease;
+}
+
+.container {
+	max-width: 1135px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+.header {
+	background: rgba(66, 33, 77, 0.6) url(../img/bg.jpg) no-repeat center top /cover;
+	height: 100vh;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	padding-top: 33px;
+	max-width: 600px;
+}
+
+.menu a {
+	margin-right: 52px;
+}
+
+.menu a:hover {
+	color: #C44176;
+}
+
+.socials {
+	font-size: 24px;
+	padding-top: 30px;
+	max-width: 250px;
+}
+
+.socials a {
+	margin-left: 20px;
+}
+
+.socials a:hover {
+	color: #D45A45;
+}
+
+h3 {
+	font-size: 28px;
+	width: 340px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 80px;
+	width: 350px;
+	background: linear-gradient(45.0deg, #aa3a67 22%, #fb806b 77%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 0.9;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+.btn {
+	padding: 25px 60px;
+	border: 3px solid transparent;
+	border-image: linear-gradient(45.0deg, #aa3a67 22%, #fb806b 77%);
+	border-image-slice: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.btn:hover {
+	color: #fb806b;
+	background: rgba(200, 70, 121, 0.3);
+	border-image-slice: 0;
+}
+
+.block {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+h2 {
+	font-size: 38px;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-align: center;
+}
+
+#Ingressos {
+	padding-bottom: 55px;
+	text-align: center;
+}
+
+.title_ingressos {
+	margin-bottom: 55px;
+}
+
+.block_ingressos {
+	text-transform: uppercase;
+	font-size: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 750px;
+	margin-bottom: 40px;
+}
+
+.block_1, .block_2 {
+	padding-top: 35px;
+	margin: 0 auto;
+	width: 370px;
+	border-radius: 15px;
+}
+
+.block_1 {
+	background: url(../img/100.png) no-repeat center top/cover;
+}
+
+.block_2 {
+	background: url(../img/50.png) no-repeat center top/cover;
+}
+
+.price_block {
+	font-size: 60px;
+	margin-top: 200px;
+	margin-bottom: 40px;
+}
+
+.price_block span {
+	vertical-align: super;
+	font-size: 30px;
+}
+
+.btn_ingressos {
+	text-transform: uppercase;
+	font-size: 24px;
+	border: 3px solid #fff;
+	padding: 20px 65px;
+}
+
+.btn_ingressos:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.user {
+	margin: 55px auto 25px;
+	font-size: 14px;
+	text-transform: none;
+}
+
+.user i {
+	padding-right: 10px;
+}
+
+.text {
+	font-size: 12px;
+	width: 285px;
+	margin: 0 auto 45px;
+	text-transform: none;
+}
+
+#Trajetoria {
+	background: url(../img/bg_2.jpg) no-repeat center top /cover;
+	height: 100vh;
+}
+
+#Trajetoria .container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.block_trajetoria {
+	max-width: 540px;
+}
+
+.block_trajetoria h2 {
+	text-align: left;
+	padding-bottom: 25px;
+}
+
+.path {
+	margin-top: 45px;
+}
+
+.path_block {
+	display: flex;
+}
+
+.year {
+	font-weight: 300;
+	font-size: 32px;
+	margin-right: 115px;
+}
+
+.year:after {
+	content: '';
+	position: absolute;
+	height: 18px;
+	width: 18px;
+	border: 4px solid #f97e6b;
+	border-radius: 50%;
+	margin: 7px 35px;
+	background: none;
+}
+
+.path_block span {
+	margin: 37px 65px -3px -69px;
+	border-left: 5px solid #f97e6b;
+	border-radius: 10px;
+}
+
+.path_text {
+	padding-bottom: 45px;
+}
+
+#Galeria {
+	padding-bottom: 60px;
+}
+
+#Galeria h2 {
+	padding: 60px;
+}
+
+#Galeria .container {
+	max-width: 1112px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+img {
+	transition: .3s ease;
+}
+
+img:hover {
+	transform: scale(1.2);
+	border: 1px solid #fff;
+}
+
+.btn_galeria {
+	display: flex;
+	justify-content: center;
+	margin-top: 55px;
+}
+
+#Show {
+	background: url(../img/map.jpg) no-repeat center top /cover;
+	height: 100vh;
+	color: #000;
+	text-align: center;
+	display: flex;
+	align-items: flex-end;
+}
+
+.block_show {
+	background: rgba(255, 255, 255, 0.9);
+	padding: 50px;
+	border-radius: 5px;
+	margin: 50px;
+}
+
+.block_show_text {
+	max-width: 840px;
+	margin: 0 auto;
+	line-height: 1.8;
+}
+
+.text_show {
+	font-size: 18px;
+	color: #424242;
+}
+
+.footer {
+	background: linear-gradient(to right, #53289e 40%, #772f0a 90%);
+	padding: 60px;
+}
+
+.footer_block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer h3 {
+	width: 150px;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: .9;
+}
+
+.footer p {
+	margin-top: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.burger {
+	display: none;
+	width: 35px;
+ 	height: 70px;
+	transition: 1s;
+}
+
+.burger span {
+	position: absolute;
+	width: 60px;
+	height: 8px;
+	background: #fff;
+	transition: .3s;
+}
+
+.burger span:nth-child(1) {
+   transform: translateY(17px)
+}
+
+.burger span:nth-child(3) {
+	transform: translateY(-17px)
+}
+
+.active {
+	transform: translateX(-10%);
+	padding-left: 110%;
+	background: #000;
+}
+
+.active span:nth-child(1) {
+	transform: rotate(-35deg);
+	width: 35px;
+	transform-origin: left bottom;
+}
+
+.active span:nth-child(3) {
+	transform: rotate(35deg);
+	width: 35px;
+	transform-origin: left top;
+}
+
+.burger_content {
+	position: fixed;
+	width: 110%;
+	height: 100%;
+	background: transparent;
+	overflow: auto;
+	transform: translateX(-120%);
+	font-size: 40px;
+	z-index: 3;
+	transition: 1s;
+}
+
+.burger_content ul {
+	flex-direction: column;
+	align-items: center;
+}
+
+.burger_content li {
+	font-size: 70px;
+    padding-bottom: 50px;
+}
+
+.active_content {
+	transform: translateX(-10%);
+	background: #000;
+}
+
+.burger_content .socials {
+	font-size: 65px;
+	margin: 0 auto;
+	padding-top: 0;
+	max-width: 380px;
+}
+
+body.lock {
+	overflow: hidden;
+}
+
+@media (max-width: 1160px) {
+	.images {
+		max-width: 850px;
+		margin: 0 auto;
+		justify-content: space-around;
+	}
+	img {
+		margin-bottom: 50px;
+	}
+	.btn_galeria {
+		margin: 0;
+	}
+}
+
+@media (max-width: 850px) {
+	.nav {
+		display: none;
+	}
+	.burger {
+		display: flex;
+		align-items: center;
+	}
+	img,.title_ingressos {
+		margin-bottom: 25px;
+	}
+	.footer {
+		padding: 25px;
+	}
+}
+
+@media (max-width: 680px) {
+	.burger_content li {
+		font-size: 50px;
+	    padding-bottom: 25px;
+	}
+	.burger_content .socials {
+		font-size: 36px;
+		width: 250px;
+	}
+	.burger span {
+		height: 4px;
+		width: 35px;
+	}
+	.burger span:nth-child(1) {
+	    transform: translateY(10px);
+	}
+	.burger span:nth-child(3) {
+    	transform: translateY(-10px);
+	}
+	.active span:nth-child(1),
+	.active span:nth-child(3) {
+		width: 20px;
+	}
+	.active span:nth-child(1){
+		transform: rotate(-35deg);
+	}
+	.active span:nth-child(3){
+		transform: rotate(35deg);
+	}
+	.path {
+		margin-top: 25px;
+	}
+	.path_block {
+    	display: block;
+	}
+	.year:after, .path_block span {
+		display: none;
+	}
+	.path_text {
+		padding-bottom: 25px;
+	}
+	.block_show {
+		padding: 20px;
+		margin: 0 0 25px 0;
+		transform: scale(0.9);
+	}
+	.footer .socials {
+		display: none;
+	}
+}
+
+@media (max-height: 740px) {
+	#Trajetoria {
+		padding-top: 20px;
+		height: 100%
+	}
+	#Trajetoria .container {
+		height: 100%;
+	}
+}
+
+@media (max-height: 420px) {
+	.header {
+		height: 100%;
+		padding-bottom: 20px;
+	}
+	.block {
+		height: 100%;
+	}
+	h1 {
+		font-size: 60px;
+		padding: 10px 0;
+	}
+	h3 {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 420px) {
+	body {
+		font-size: 16px;
+	}
+	img {
+		width: 100%;
+	}
+	.block, .btn_ingressos, .btn_galeria {
+		transform: scale(0.8);
+	}
+	.btn, .btn_ingressos {
+		font-size: 18px;
+	}
+	.block {
+		text-align: center;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	#Ingressos {
+		padding-bottom: 25px;
+	}
+	#Ingressos .container {
+		padding: 0 10px;
+	}
+	.block_ingressos {
+		margin-bottom: 0;
+	}
+	.text_show {
+		font-size: 14px;
+	}
+}

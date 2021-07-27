@@ -139,6 +139,7 @@ h2 {
 	font-size: 30px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 	margin: 0 auto;
 	max-width: 750px;
 	margin-bottom: 40px;
@@ -146,7 +147,6 @@ h2 {
 
 .block_1, .block_2 {
 	padding-top: 35px;
-	margin: 0 auto;
 	width: 370px;
 	border-radius: 15px;
 }
@@ -263,7 +263,7 @@ h2 {
 }
 
 #Galeria .container {
-	max-width: 1112px;
+	max-width: 1110px;
 }
 
 .images {
@@ -272,13 +272,13 @@ h2 {
 	flex-wrap: wrap;
 }
 
-img {
+.images img {
 	transition: .3s ease;
 }
 
-img:hover {
+.images img:hover {
 	transform: scale(1.2);
-	border: 1px solid #fff;
+	outline: 1px solid #fff;
 }
 
 .btn_galeria {
